@@ -1,17 +1,21 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import "../styles/global.scss"
 
-import Contact from "../components/sections/contact"
 
 import Layout from "../components/layout"
+import Contact from "../components/sections/contact"
+import Projects from "../components/sections/projects"
+import About from "../components/sections/about"
+import Landing from "../components/sections/landing"
+import Navbar from "../components/navbar"
 
 const IndexPage = () => (
   <Layout>
-    <p>Welcome to my site.</p>
-    <p>How are you.</p>
+    <Navbar />
+    <Landing />
     <Contact />
+    <Projects />
+    <About />
   </Layout>
 )
 

@@ -1,3 +1,5 @@
+@import "media-queries.scss";
+
 body {
     background-color: #0d1219;
     color: #f9fafa;
@@ -41,13 +43,23 @@ ul {
     list-style: none;
 }
 
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 1000px;
+    width: 80vw;
+}
+.landing {
+    margin-top: 100px;
+}
+
 
 //Navbar classes
 .navbar-main {
     background-color: #1A2634;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     position: relative;
     height: 80px;
 }

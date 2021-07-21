@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Logo from "../images/portfolio-logo.svg"
 
 const Navbar = () => {
     return (
@@ -9,7 +10,9 @@ const Navbar = () => {
                 <Link
                 to="/"
                 className="navbar-link"
-                >Hugo</Link>
+                >
+                    <Logo />
+                </Link>
             </div>
         </div>
         <div className="navbar-container">

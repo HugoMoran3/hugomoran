@@ -1,13 +1,23 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 
 const Landing = () => {
     return(
         <div className="landing">
-            <h2>My name is Hugo Moran.</h2>
+            <h1>My name is Hugo Moran.</h1>
+            <h2>
+                I have a Diploma of Website Development and passion for creating websites.
+            </h2>
             <p>
-                I have a Diploma of Website development and passion for learning. I specialize in front end development but I have a rock solid understanding of back end work too.
+            I specialize in front end development but I have a rock solid understanding of back end work too.
             </p>
+            <Link 
+            to="/"
+            className="linkbutton"
+            >
+                Contact Me
+            </Link>
         </div>
     )
 }

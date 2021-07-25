@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Footer = () => (
   <footer>
       <p>
-          This is the footer
+          Built by Hugo Moran
       </p>
   </footer>
 

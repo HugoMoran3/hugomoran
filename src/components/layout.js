@@ -12,6 +12,7 @@ const Layout = ({ children }) => {
     <>
     <React.StrictMode>
     <Header />
+    <Navbar />
       <div className="content">
         <main>{children}</main>
 

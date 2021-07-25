@@ -5,8 +5,14 @@ const About = () => {
     return(
         <div className="about">
             <h2>About me </h2>
-            <p>I'm always open to new opportunities, let me know if you have anything you would like to discuss in the link below.
+            <p>Some of the technologies that I have experience with include: 
             </p>
+            <ol>
+                <li>React</li>
+                <li>WordPress</li>
+                <li>GatsbyJS</li>
+                <li>NodeJS</li>
+            </ol>
         </div>
     )
 }

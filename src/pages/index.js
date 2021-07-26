@@ -1,9 +1,9 @@
 import * as React from "react"
-
+import Helmet from "react-helmet"
 
 import "../styles/global.scss"
 
-import Card from "../components/card"
+
 import Layout from "../components/layout"
 import Contact from "../components/sections/contact"
 import Projects from "../components/sections/projects"
@@ -16,6 +16,23 @@ const IndexPage = () => (
     <Projects />
     <About />
     <Contact />
+    <Helmet>
+        <script type="text/javascript">
+        {`
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar-id").style.top = "0";
+            } else {
+                document.getElementById("navbar-id").style.top = "-80px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        
+        `}
+        </script>
+    </Helmet>
   </div>
 )
 

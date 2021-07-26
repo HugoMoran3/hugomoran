@@ -5,7 +5,7 @@ import Logo from "../images/portfolio-logo.svg"
 
 const Navbar = () => {
     return (
-    <nav className="navbar-main">
+    <nav className="navbar-main" id="navbar-id">
         <div className="navbar-container">
             <div className="navbar-title">
                 <Link

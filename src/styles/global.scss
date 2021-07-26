@@ -68,6 +68,8 @@ ul {
     top: 0;
     position: sticky;
     height: 80px;
+    z-index: 5;
+    transition: all 0.5s;
 }
 .navbar{
     display: flex;

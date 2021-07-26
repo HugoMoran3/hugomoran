@@ -2,7 +2,7 @@ import React from "react"
 
 const Card = () => {
     return (
-        <div class="grid">
+        <div class="card">
             <div class="item">
                 <a href="#0" aria-labelledby="project1"></a>
                 <img src='https://i.imgur.com/DkfiBxR.jpeg' alt=''/>

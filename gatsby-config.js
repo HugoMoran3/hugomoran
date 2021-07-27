@@ -20,6 +20,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

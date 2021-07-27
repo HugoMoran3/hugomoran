@@ -1,23 +1,44 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Motion, spring, presets } from "react-motion"
 
 
 const Landing = () => {
     return(
         <div className="landing">
-            <h1>My name is Hugo Moran.</h1>
-            <h2>
-                I have a Diploma of Website Development and passion for creating websites.
-            </h2>
-            <p>
-            I specialize in front end development but I have a rock solid understanding of back end work too.
-            </p>
-            <Link 
-            to="/"
-            className="linkbutton"
+            <Motion
+            defaultStyle={{
+                opacity: 0,
+                translateY: 30
+            }}
+            style={{
+                opacity: spring(1),
+                translateY: spring(0, presets.wobbly)
+            }}
             >
-                Contact Me
-            </Link>
+            {interpolatedStyles => (
+                <div
+                style={{
+                    transform: `translateY(${interpolatedStyles.translateY}px)`,
+                    opacity: interpolatedStyles.opacity
+                }}
+                >
+                <h1>My name is Hugo Moran.</h1>
+                <h2>
+                    I have a Diploma of Website Development and passion for creating websites.
+                </h2>
+                <p>
+                I specialize in front end development but I have a rock solid understanding of back end work too.
+                </p>
+                <Link 
+                to="/"
+                className="linkbutton"
+                >
+                    Contact Me
+                </Link>
+                </div>
+            )}
+            </Motion>
         </div>
     )
 }

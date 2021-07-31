@@ -4,7 +4,7 @@ import * as React from "react"
 const About = () => {
     return(
         <div className="about">
-            <h2>About me </h2>
+            <h1>About me </h1>
             <p>Some of the technologies that I have experience with include: 
             </p>
             <ol>

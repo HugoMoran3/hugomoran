@@ -5,7 +5,7 @@ import Card from "../card"
 const Project = () => {
     return(
         <div className="project">
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <p>This is the are where I'm going to link to some projects that I have done.
             </p>
             <Card />

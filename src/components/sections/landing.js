@@ -23,7 +23,7 @@ const Landing = () => {
                     opacity: interpolatedStyles.opacity
                 }}
                 >
-                <h1>My name is Hugo Moran.</h1>
+                <h1>My name is</h1><h4> Hugo Moran.</h4>
                 <h2>
                     I have a Diploma of Website Development and passion for creating websites.
                 </h2>

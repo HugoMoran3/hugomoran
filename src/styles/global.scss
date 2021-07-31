@@ -2,10 +2,17 @@
 @import "card.scss";
 @import "transition.scss";
 
+$fontfamily: 'Lato', sans-serif;
+
+*{
+    font-family: $fontfamily;
+}
+
 body {
     background-color: #0d1219;
     color: #f9fafa;
     font-size: 16px;
+    font-family: $fontfamily;
 }
 a {
     color: #f9fafa;

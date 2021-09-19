@@ -31,7 +31,7 @@ const Landing = () => {
                 I specialize in front end development but I have a rock solid understanding of back end work too.
                 </p>
                 <Link 
-                to="/"
+                to="#contact"
                 className="linkbutton"
                 >
                     Contact Me

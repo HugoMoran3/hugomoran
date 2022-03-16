@@ -51,7 +51,9 @@
   @media (min-width: 481px) and (max-width: 767px) {
     
     /* CSS */
-    
+    #hugo-title {
+      display: none;
+    }
   }
   
   /* 
@@ -62,5 +64,7 @@
   @media (min-width: 320px) and (max-width: 480px) {
     
     /* CSS */
-    
+    #hugo-title {
+      display: none;
+    }
   }

@@ -6,7 +6,7 @@ import Logo from "../images/portfolio-logo.svg"
 const Navbar = () => {
     return (
         <nav className="navbar-main" id="navbar-id">
-        <div className="navbar-container">
+        <div className="navbar-container" id="hugo-title">
             <div className="navbar-title">
                 <Link
                 to="/"
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-element">
                     <Link
-                    to="#projects"
+                    to="#project"
                     className="navbar-link"
                     >Projects</Link >
                 </li>
